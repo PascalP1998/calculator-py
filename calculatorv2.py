@@ -22,7 +22,8 @@ def calculate(user_input):
                 if nums[i+1] == 0:
                     print("Fehler: Division durch Null ist nicht erlaubt.")
                     break
-                result /= nums[i+1]
+                else:
+                    result /= nums[i+1]
     return result
 
 print("Das Ergebnis ist:", calculate(user_input))
