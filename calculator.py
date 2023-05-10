@@ -34,5 +34,4 @@ def calculate(nums):
             print("Fehler: Ungültige Operation.")
         return result
 
-while True:
-    print("Das Ergebnis ist:", calculate(nums))
+print("Das Ergebnis ist:", calculate(nums))

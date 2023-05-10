@@ -25,5 +25,4 @@ def calculate(user_input):
                 result /= nums[i+1]
     return result
 
-while True:
-    print("Das Ergebnis ist:", calculate(user_input))
+print("Das Ergebnis ist:", calculate(user_input))
