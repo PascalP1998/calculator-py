@@ -1,6 +1,5 @@
 nums = []
 
-
 def calculate(nums):
     while True:
         try:
@@ -34,5 +33,6 @@ def calculate(nums):
         else:
             print("Fehler: Ungültige Operation.")
         return result
-        
-print("Das Ergebnis ist:", calculate(nums))
+
+while True:
+    print("Das Ergebnis ist:", calculate(nums))
